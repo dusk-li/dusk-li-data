@@ -5,5 +5,6 @@ description: Main company website
 dark-mode: None
 default-theme-style: Bright
 supports-custom-themes: None
-accessibility-rating: 0/6
+contrast-accessibility: PASS
+accessibility-rating: 1/8
 last-updated: 2023-11-19

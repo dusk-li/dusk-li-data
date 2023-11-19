@@ -1,1 +1,1 @@
-# duskify-db
+# dusk-li-data

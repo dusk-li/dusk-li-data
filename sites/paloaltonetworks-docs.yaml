@@ -1,0 +1,11 @@
+company: Palo Alto Networks
+category: Techology/Internet
+url: https://docs.paloaltonetworks.com
+description: Technical Documentation
+dark_mode: None
+mode_configurable: Yes
+default_theme_style: Bright
+supports_custom_themes: None
+contrast_accessibility: PASS
+accessibility_rating: 1/8
+last_updated: 2023-11-19

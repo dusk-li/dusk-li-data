@@ -1,0 +1,11 @@
+company: Palo Alto Networks
+category: Techology/Internet
+url: https://www.paloaltonetworks.com
+description: Main company website
+dark_mode: None
+mode_configurable: Yes
+default_theme_style: Bright
+supports_custom_themes: None
+contrast_accessibility: FAIL
+accessibility_rating: 0/8
+last_updated: 2023-11-19

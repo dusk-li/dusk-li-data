@@ -53,14 +53,16 @@ Each yaml file contains data in the following schema:
 
 > **description**: *Brief description of the website*
 
-> **dark-mode**: *None | Manual | Auto (0 Points | 1 Point | 2 Points - substract half a point if the entire site doesn't support dark mode)*
+> **dark_mode**: *None | Manual | Auto (0 Points | 1 Point | 2 Points - substract half a point if the entire site doesn't support dark mode)*
 
-> **default-theme-style**: *Bright | Mixed | Dark (0 Points | 1 Point | 2 Points)*
+> **mode_configurable**: *No | Yes (0 Points | 1 Point*
 
-> **supports-custom-themes**: *No | LoggedIn | Yes (0 Points | 1 Point | 2 Points)*
+> **default_theme_style**: *Bright | Mixed | Dark (0 Points | 1 Point | 2 Points)*
 
-> **contrast-accessibility**: FAIL | PASS (0 Points | 1 Point)
+> **supports_custom_themes**: *No | LoggedIn | Yes (0 Points | 1 Point | 2 Points)*
 
-> **accessibility-rating**: *Total of the above scores*
+> **contrast_accessibility**: FAIL | PASS (0 Points | 1 Point)
 
-> **last-updated**: *YYYY-MM-DD*
+> **accessibility_rating**: *Total of the above scores*
+
+> **last_updated**: *YYYY-MM-DD*

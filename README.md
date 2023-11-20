@@ -18,7 +18,7 @@ A truly accessible site from a Brightness and Contrast perspective therefore mus
 4. Site contrast is acceptable as assessed by https://color.a11y.com/Contrast/
 5. Optionally, the site supports custom themes, ideally without having to create a login to do so.
 
-The website is hosted at https://dusk.li and the data behind it is maintained in yaml files in the [sites-data](/sites-data) directory of this repo.
+The website is hosted at https://dusk.li and the data behind it is maintained in yaml files in the [sites-data](/sites) directory of this repo.
 
 Anyone can submit a PR to request an addition or change to the site.
 

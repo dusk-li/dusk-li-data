@@ -55,8 +55,6 @@ Each yaml file contains data in the following schema:
 
 > **dark_mode**: *None | Manual | Auto (0 Points | 1 Point | 2 Points - substract half a point if the entire site doesn't support dark mode)*
 
-> **mode_configurable**: *No | Yes (0 Points | 1 Point*
-
 > **default_theme_style**: *Bright | Mixed | Dark (0 Points | 1 Point | 2 Points)*
 
 > **supports_custom_themes**: *No | LoggedIn | Yes (0 Points | 1 Point | 2 Points)*

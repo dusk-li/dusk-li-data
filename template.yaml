@@ -1,10 +1,7 @@
 ---
 category: <category name>
 url: https://www.example.com
-description: <description text>
 dark_mode: <None|Manual|Auto>
-default_theme_style: <Bright|Mixed|Dark>
-supports_custom_themes: <None|LoggedIn|Yes>
 contrast_accessibility: <PASS|FAIL>
-accessibility_rating: 0/8
+accessibility_rating: 0/3
 last_updated: YYYY-MM-DD

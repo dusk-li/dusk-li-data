@@ -1,0 +1,33 @@
+name: Update dusk-li submodule
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout dusk-li with submodules
+        uses: actions/checkout@v4
+        with:
+          repository: dusk-li/dusk-li
+          token: ${{ secrets.DUSK_LI_TOKEN }}
+          submodules: true
+
+      - name: Update data submodule to latest main
+        run: git submodule update --remote data
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "Submodule already up to date – nothing to commit"
+          else
+            git commit -m "chore: update data submodule to latest"
+            git push
+          fi

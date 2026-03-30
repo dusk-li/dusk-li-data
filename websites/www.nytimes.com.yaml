@@ -1,7 +1,6 @@
-
 ---
 url: https://www.nytimes.com
-dark_mode: None
-contrast_accessibility: BLOCKED
-accessibility_rating: 0/3
-last_updated: 2024-02-11
+dark_mode: Manual
+contrast_accessibility: PASS
+accessibility_rating: 2/3
+last_updated: 2026-03-30
